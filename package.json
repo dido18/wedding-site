@@ -1,4 +1,14 @@
 {
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "This example is so cool.",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":  "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "start": "serve"
+  },
   "devDependencies": {
     "tailwindcss": "^3.0.18"
   }
