@@ -7,8 +7,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "dev": "tailwindcss -c ./tailwind.config.js -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -c ./tailwind.config.js -i ./src/input.css -o ./dist/output.css",
     "start": "serve"
   },
   "dependencies": {
