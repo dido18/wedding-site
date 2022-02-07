@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        // 'sans': ['Parisienne', ...defaultTheme.fontFamily.sans]
+        'sans': ['Fondamento', ...defaultTheme.fontFamily.sans]
       },
       transitionDuration: {
         '0': '0ms',
