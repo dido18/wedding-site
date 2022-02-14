@@ -28,9 +28,11 @@
     <div class="flex flex-col rounded p-2 items-center justify-center space-y-16 h-screen text-white p-2">
         <div class="text-white  text-6xl delay-75 transform duration-2000 ease-in-out text-opacity-0" data-replace='{"text-opacity-0": "text-opacity-100"}'>Ivan e Noemi</div>
         <div class="text-white  text-2xl delay-1500 transform duration-2000 ease-in-out -translate-x-20 text-opacity-0" data-replace='{"-translate-x-20": "translate-x-0", "text-opacity-0": "text-opacity-100"}'>Annunciano il loro matrimonio</div>
-        <div class="text-white  mt-4 delay-2500 transform-all duration-2000 ease-in-out text-opacity-0" data-replace='{"text-opacity-0": "text-opacity-100"}'>
-            <a class="p-2 border border-white border rounded-md hover:text-cyan-700 hover:bg-white hover:border-transparent" href="#anchor-name">Leggi la partecipazione</a>
+        <div class="text-white p-2 mt-4 delay-2500 transform-all duration-2000 ease-in-out text-opacity-0 border border-transparent rounded-md" data-replace='{"text-opacity-0": "text-opacity-100", "border-transparent": "border-current"}'>
+<!--            <a class="p-2 border border-white border-opacity-0 transition border rounded-md hover:text-cyan-700 hover:bg-white hover:border-transparent" data-replace='{"border-opacity-0": "border-opacity-100"}' href="#anchor-name">Leggi la partecipazione</a>-->
+            <a class="hover:text-cyan-600" href="#anchor-name">Leggi la partecipazione</a>
         </div>
+
     </div>
 
     <div class="h-screen flex items-center justify-center text-white" id="anchor-name">
