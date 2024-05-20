@@ -11,6 +11,9 @@ module.exports = {
         'sans': ['Fondamento', ...defaultTheme.fontFamily.sans]
       },
     },
+    safelist: [
+        'bg-orange-50',
+      ],
   },
   plugins: [],
 }
