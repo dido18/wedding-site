@@ -488,10 +488,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1rem;
 }
 
-.max-w-md {
-  max-width: 28rem;
-}
-
 .list-outside {
   list-style-position: outside;
 }
