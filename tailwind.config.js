@@ -15,7 +15,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'sans': ['Fondamento', ...defaultTheme.fontFamily.sans]
+        'sans': ['Fondamento', ...defaultTheme.fontFamily.sans],
+        'courier': ["'Courier New'", 'Courier', 'monospace'],
       },
     },
     // safelist: [
